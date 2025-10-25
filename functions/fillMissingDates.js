@@ -75,4 +75,4 @@ const output = `module.exports = ${JSON.stringify(filledRecords, null, 2)};`;
 
 fs.writeFileSync("filledRecords.js", output);
 
-console.log(`✅ Filled dataset written to filledRecords.js with ${filledRecords.length} daily records.`);
+console.log(`Filled dataset written to filledRecords.js with ${filledRecords.length} daily records.`);
