@@ -1,6 +1,6 @@
 // fillMissingDates.js
 const fs = require("fs");
-const records = require("[path to your data file]"); 
+const records = require("[path/to/file]"); 
 
 // Ensure sorted by date
 records.sort((a, b) => a.date - b.date);
